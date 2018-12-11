@@ -20,7 +20,7 @@ wacn.date: 12/5/2018
 需要在 web.config 中进行配置，若没有这个配置文件，需要上传一个 web.config 文件到 `site/wwwroot` 目录下，具体配置如下：
 
 ```xml
-?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <configuration>
     <system.webServer>
     <httpErrors errorMode="DetailedLocalOnly" defaultResponseMode="File" >
